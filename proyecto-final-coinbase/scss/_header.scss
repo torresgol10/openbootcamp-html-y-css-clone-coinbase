@@ -1,0 +1,25 @@
+.header{
+    height: 67px;
+    width: 100%;
+    border-bottom: 1px solid rgb(236, 239, 241);
+    top: 0px;
+    background: rgb(255, 255, 255);
+    & .header-logo img{
+        max-height: 20px;
+    }
+    & .header-nav a{
+        display: inline-flex;
+        align-items: center;
+        height: 100%;
+        &:hover{
+            border-bottom: 4px solid $blue-themes;
+        }
+    }
+    & .header-nav , .header-buttons{
+        font-size: 14px;
+    }
+
+    & .header-buttons a:first-child:hover{
+        color: $blue-themes
+    }
+}
