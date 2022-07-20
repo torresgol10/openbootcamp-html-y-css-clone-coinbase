@@ -10958,4 +10958,9 @@ textarea.form-control-lg {
 .icon-features {
   width: 72px;
   height: 72px;
+}
+
+hr {
+  opacity: 1;
+  border-color: rgb(238, 240, 243);
 }/*# sourceMappingURL=style.css.map */
