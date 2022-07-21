@@ -10967,4 +10967,12 @@ hr {
 
 .max-content {
   max-width: 1180px;
+}
+
+.image-bg {
+  height: 460px;
+  background-color: rgb(245, 248, 255);
+  background-image: url("https://assets.coinbase.com/assets/earn-upsell-desktop.969a983ce74a462a68ba618b798a8cfa.webp");
+  background-repeat: no-repeat;
+  background-position-x: right;
 }/*# sourceMappingURL=style.css.map */
