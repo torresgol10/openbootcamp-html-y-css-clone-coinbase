@@ -10951,8 +10951,17 @@ textarea.form-control-lg {
   border: 1px solid var(--bs-table-border-color);
 }
 
+.comming-winner li {
+  list-style-type: none;
+  border: 1px solid #ccc;
+}
+@media (min-width: 992px) {
+  .comming-winner li {
+    border: 0;
+  }
+}
 .comming-winner li:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .icon-features {
@@ -10970,11 +10979,21 @@ hr {
 }
 
 .image-bg {
-  height: 460px;
-  background-color: rgb(245, 248, 255);
-  background-image: url("https://assets.coinbase.com/assets/earn-upsell-desktop.969a983ce74a462a68ba618b798a8cfa.webp");
-  background-repeat: no-repeat;
-  background-position-x: right;
+  height: auto;
+  background-color: rgb(17, 51, 85);
+  background-image: none;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .image-bg {
+    height: 460px;
+    background-color: rgb(245, 248, 255);
+    background-image: url("https://assets.coinbase.com/assets/earn-upsell-desktop.969a983ce74a462a68ba618b798a8cfa.webp");
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
 }
 
 a.text-muted:hover {

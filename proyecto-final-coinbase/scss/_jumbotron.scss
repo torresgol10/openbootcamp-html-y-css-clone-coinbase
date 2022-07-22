@@ -1,5 +1,12 @@
-.comming-winner li:hover{
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+.comming-winner li{
+    list-style-type: none;
+    border: 1px solid #ccc;
+    @include media-breakpoint-up(lg) {
+        border: 0;
+    }
+    &:hover{
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    }
 }
 
 .icon-features{
