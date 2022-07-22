@@ -10923,21 +10923,31 @@ textarea.form-control-lg {
   }
 }
 .header {
-  height: 67px;
-  width: 100%;
   border-bottom: 1px solid rgb(236, 239, 241);
-  top: 0px;
-  background: rgb(255, 255, 255);
+}
+@media (min-width: 992px) {
+  .header {
+    height: 67px;
+  }
 }
 .header .header-logo img {
   max-height: 20px;
 }
-.header .header-nav a {
-  display: inline-flex;
+@media (min-width: 992px) {
+  .header .header-nav {
+    height: 100%;
+  }
+  .header .header-nav .navbar-nav {
+    height: 100%;
+  }
+}
+.header .header-nav .nav-link {
+  display: flex;
   align-items: center;
   height: 100%;
+  color: var(--bs-body-color);
 }
-.header .header-nav a:hover {
+.header .header-nav .nav-link:hover {
   border-bottom: 4px solid #0a46e4;
 }
 .header .header-nav, .header .header-buttons {
