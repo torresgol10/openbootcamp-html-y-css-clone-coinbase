@@ -6,10 +6,12 @@
     padding: 2rem;
     text-align: center;
     @include media-breakpoint-up(lg) {
+        color: #000;
         height: 460px;
         background-color: rgb(245, 248, 255);
         background-image: url('https://assets.coinbase.com/assets/earn-upsell-desktop.969a983ce74a462a68ba618b798a8cfa.webp');
         background-repeat: no-repeat;
         background-position-x: right;
+        text-align: left;
     }
 }
